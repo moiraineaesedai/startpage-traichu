@@ -117,6 +117,12 @@ aside svg { height: 4.5rem; }
 #dock li:nth-child(8) a:hover { fill: #1877F2; } /* Facebook */
 #dock li:nth-child(9) a:focus,
 #dock li:nth-child(9) a:hover { fill: #6BDD54; } /* Whatsapp */
+#dock li:nth-child(10) a:focus,
+#dock li:nth-child(10) a:hover { fill: #FFFF64; } /* Genius */
+#dock li:nth-child(11) a:focus,
+#dock li:nth-child(11) a:hover { fill: #4285F4; } /* Academico */
+#dock li:nth-child(12) a:focus,
+#dock li:nth-child(12) a:hover { fill: #4285F4; } /* Translate */
 
 #dock svg { height: 1.5rem; }
 
