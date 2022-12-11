@@ -8,10 +8,14 @@
     */
     --color-black-hsl: 0 0% 11%; /* #1C1C1C */
     --color-black: hsl(var(--color-black-hsl));
-    --color-orange-hsl: 19 88% 53%; /* #F05E1C */
+    --color-orange-hsl: 208 75% 61%; /* #F05E1C */
     --color-orange: hsl(var(--color-orange-hsl));
     --color-white-hsl: 60 100% 99%; /* #FFFFFC */
     --color-white: hsl(var(--color-white-hsl));
+    
+    /* my colours */
+    --dark-bg: #2B2A33;
+    --light-bg: #F9F9FB;
 
     /* Font-families */
     --font-monospace: "Fira Code", ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
@@ -35,7 +39,7 @@
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --primary-background-color: var(--color-black);
+        --primary-background-color: var(--dark-bg);
         --primary-font-color: var(--color-white);
         --primary-link-color: hsl(var(--color-white-hsl) / 0.5);
         --primary-link-hover-color: var(--color-white);
@@ -45,7 +49,7 @@
 /* Light Mode */
 @media (prefers-color-scheme: light) {
     :root {
-        --primary-background-color: hsl(var(--color-black-hsl) / 0.075);
+        --primary-background-color: #F9F9FB;
         --primary-font-color: hsl(var(--color-black-hsl) / 0.75);
         --primary-link-color: hsl(var(--color-black-hsl) / 0.75);
         --primary-link-hover-color: var(--color-black);
